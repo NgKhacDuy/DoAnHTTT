@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="null"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new panelGradient()"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+              <Component id="jScrollPane2" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jComboBox2" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextField1" min="-2" pref="260" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="732" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="318" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane2" min="-2" pref="171" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="16" rowCount="12">
+                    <Column editable="true" title="" type="java.lang.Boolean"/>
+                    <Column editable="true" title="M&#xe3; MH" type="java.lang.Object">
+                      <Data value="861303"/>
+                      <Data value="862408"/>
+                      <Data value="861002"/>
+                      <Data value="861002"/>
+                      <Data value="860113"/>
+                      <Data value="860113"/>
+                      <Data value="888888"/>
+                      <Data value="111111"/>
+                      <Data value="696969"/>
+                      <Data value="696969"/>
+                      <Data value="999666"/>
+                      <Data value="131313"/>
+                    </Column>
+                    <Column editable="true" title="T&#xea;n MH" type="java.lang.Object">
+                      <Data value="Ch&#x1ee7; ngh&#x129;a x&#xe3; h&#x1ed9;i"/>
+                      <Data value="GDQPAN III"/>
+                      <Data value="T&#x1b0; t&#x1b0;&#x1edf;ng HCM"/>
+                      <Data value="T&#x1b0; t&#x1b0;&#x1edf;ng HCM"/>
+                      <Data value="T&#x1b0; t&#x1b0;&#x1edf;ng &#x111;&#x1ea1;o l&#xfd; "/>
+                      <Data value="T&#x1b0; t&#x1b0;&#x1edf;ng &#x111;&#x1ea1;o l&#xfd; "/>
+                      <Data value="V&#x1ead;t l&#xfd; l&#x1b0;&#x1ee3;ng t&#x1eed;"/>
+                      <Data value="D&#xf2;ng &#x111;i&#x1ec7;n"/>
+                      <Data value="L&#x1ead;p tr&#xec;nh c&#x1a1; b&#x1ea3;n"/>
+                      <Data value="L&#x1ead;p tr&#xec;nh trung c&#x1ea5;p"/>
+                      <Data value="L&#x1ead;p tr&#xec;nh cao c&#x1ea5;p"/>
+                      <Data value="L&#x1ead;p tr&#xec;nh VipPro"/>
+                    </Column>
+                    <Column editable="true" title="Nh&#xf3;m MH" type="java.lang.Object">
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="5"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="2"/>
+                    </Column>
+                    <Column editable="true" title="S&#x1ed1; t&#xed;n ch&#x1ec9;" type="java.lang.Object">
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="3"/>
+                      <Data value="3"/>
+                      <Data value="5"/>
+                      <Data value="5"/>
+                    </Column>
+                    <Column editable="true" title="S&#x1ed1; TCHP" type="java.lang.Object">
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="3"/>
+                      <Data value="3"/>
+                      <Data value="3"/>
+                      <Data value="3"/>
+                    </Column>
+                    <Column editable="true" title="M&#xe3; l&#x1edb;p" type="java.lang.Object"/>
+                    <Column editable="true" title="S&#x1ec9; s&#x1ed1;" type="java.lang.Object">
+                      <Data value="60"/>
+                      <Data value="40"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="50"/>
+                      <Data value="50"/>
+                      <Data value="20"/>
+                      <Data value="5"/>
+                    </Column>
+                    <Column editable="true" title="C&#xf2;n l&#x1ea1;i" type="java.lang.Object">
+                      <Data value="60"/>
+                      <Data value="40"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="60"/>
+                      <Data value="50"/>
+                      <Data value="50"/>
+                      <Data value="20"/>
+                      <Data value="5"/>
+                    </Column>
+                    <Column editable="true" title="TH" type="java.lang.Object"/>
+                    <Column editable="true" title="Th&#x1ee9;" type="java.lang.Object">
+                      <Data value="2"/>
+                      <Data value="3"/>
+                      <Data value="3"/>
+                      <Data value="4"/>
+                      <Data value="4"/>
+                      <Data value="4"/>
+                      <Data value="4"/>
+                      <Data value="5"/>
+                      <Data value="2"/>
+                      <Data value="2"/>
+                      <Data value="3"/>
+                      <Data value="2"/>
+                    </Column>
+                    <Column editable="true" title="Ti&#x1ebf;t BD" type="java.lang.Object">
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="3"/>
+                      <Data value="4"/>
+                      <Data value="2"/>
+                      <Data value="3"/>
+                    </Column>
+                    <Column editable="true" title="S&#x1ed1; ti&#x1ebf;t" type="java.lang.Object">
+                      <Data value="5"/>
+                      <Data value="5"/>
+                      <Data value="5"/>
+                      <Data value="5"/>
+                      <Data value="6"/>
+                      <Data value="6"/>
+                      <Data value="6"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                      <Data value="1"/>
+                    </Column>
+                    <Column editable="true" title="Ph&#xf2;ng" type="java.lang.Object">
+                      <Data value="C.303"/>
+                      <Data value="C.205"/>
+                      <Data value="C.105"/>
+                      <Data value="C.105"/>
+                      <Data value="C.102"/>
+                      <Data value="C.703"/>
+                      <Data value="C.999"/>
+                      <Data value="A.013"/>
+                      <Data value="B.202"/>
+                      <Data value="D.106"/>
+                      <Data value="E.501"/>
+                      <Data value="A.060"/>
+                    </Column>
+                    <Column editable="true" title="Gi&#x1ea3;ng vi&#xea;n" type="java.lang.Object">
+                      <Data value="Nguy&#x1ec5;n V&#x103;n A"/>
+                      <Data value="Nguy&#x1ec5;n V&#x103;n B"/>
+                      <Data value="Nguy&#x1ec5;n V&#x103;n B"/>
+                      <Data value="Nguy&#x1ec5;n V&#x103;n B"/>
+                      <Data value="Hu&#x1ea5;n Hoa H&#x1ed3;ng"/>
+                      <Data value="Hu&#x1ea5;n Hoa H&#x1ed3;ng"/>
+                      <Data value="albert einstein"/>
+                      <Data value="nikola tesla "/>
+                      <Data value="Nguy&#x1ec5;n Kh&#x1eaf;c Duy"/>
+                      <Data value="V&#xf5; ti&#x1ec3;u b&#x1ea3;o"/>
+                      <Data value="V&#xf5; ti&#x1ec3;u b&#x1ea3;o"/>
+                      <Data value="Nguy&#x1ec5;n Ch&#xe2;u Hi&#x1ebf;u Duy"/>
+                    </Column>
+                    <Column editable="true" title="Tu&#x1ea7;n" type="java.lang.Object">
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                      <Data value="123456789"/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="ff" red="99" type="rgb"/>
+                </Property>
+                <Property name="opaque" type="boolean" value="false"/>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#x1ecd;c theo m&#xf4;n h&#x1ecd;c"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#x1ecd;c theo &#x111;i&#x1ec1;u ki&#x1ec7;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="L&#x1edb;p"/>
+                <StringItem index="1" value="Khoa"/>
+                <StringItem index="2" value="Ng&#xe0;nh"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Ng&#xe0;nh c&#xf4;ng ngh&#x1ec7; th&#xf4;ng tin"/>
+                <StringItem index="1" value="Ng&#xe0;nh s&#x1b0; ph&#x1ea1;m"/>
+                <StringItem index="2" value="Ng&#xe0;nh ng&#xf4;n ng&#x1eef; anh"/>
+                <StringItem index="3" value="Ng&#xe0;nh k&#x1ebf; to&#xe1;n"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Danh s&#xe1;ch m&#xf4;n &#x111;&#xe3; ch&#x1ecd;n"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <Properties>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable2">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="11" rowCount="2">
+                    <Column editable="true" title="" type="java.lang.Boolean"/>
+                    <Column editable="true" title="STT" type="java.lang.Object">
+                      <Data value="1"/>
+                      <Data value="2"/>
+                    </Column>
+                    <Column editable="true" title="M&#xe3; MH" type="java.lang.Object">
+                      <Data value="861303"/>
+                      <Data value="862408"/>
+                    </Column>
+                    <Column editable="true" title="T&#xea;n MH" type="java.lang.Object">
+                      <Data value="Ch&#x1ee7; ngh&#x129;a x&#xe3; h&#x1ed9;i"/>
+                      <Data value="GDQPAN III"/>
+                    </Column>
+                    <Column editable="true" title="NMH" type="java.lang.Object">
+                      <Data value="1"/>
+                      <Data value="1"/>
+                    </Column>
+                    <Column editable="true" title="STC" type="java.lang.Object">
+                      <Data value="2"/>
+                      <Data value="2"/>
+                    </Column>
+                    <Column editable="true" title="STCHP" type="java.lang.Object">
+                      <Data value="2"/>
+                      <Data value="2"/>
+                    </Column>
+                    <Column editable="true" title="H&#x1ecd;c ph&#xed;" type="java.lang.Object">
+                      <Data value="370000"/>
+                      <Data value="370000"/>
+                    </Column>
+                    <Column editable="true" title="Mi&#x1ec5;n gi&#x1ea3;m" type="java.lang.Object">
+                      <Data value="0"/>
+                      <Data value="0"/>
+                    </Column>
+                    <Column editable="true" title="Ph&#x1ea3;i &#x111;&#xf3;ng" type="java.lang.Object">
+                      <Data value="370000"/>
+                      <Data value="370000"/>
+                    </Column>
+                    <Column editable="true" title="Tr&#x1ea1;ng th&#xe1;i" type="java.lang.Object">
+                      <Data value="&#x110;&#xe3; l&#x1b0;u v&#xe0;o CSDL"/>
+                      <Data value="&#x110;&#xe3; l&#x1b0;u v&#xe0;o CSDL"/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#x1b0;u &#x111;&#x103;ng k&#xfd;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
